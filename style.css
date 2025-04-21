@@ -1,0 +1,58 @@
+body{
+    background-color: antiquewhite;
+}
+h1{ font-size: 45px;
+    color: blue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     background-color: black;
+}
+p{
+    font-size: large;
+    font-weight: 150px;
+    letter-spacing: 2px;
+}
+h2{
+    font-family: cursive;
+    font-size: larger;
+    background-color: chocolate;
+}
+.stu{
+    text-align: center;
+    text-decoration: double;
+    font-size: 30px;
+    color: darkblue;
+}
+input[draggable]{
+    color: blue;
+    background-color: coral;
+    font-size: 20px;
+    font-weight: 200;
+}
+img{
+    display: grid;
+    border-radius: 75%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    box-shadow: 0rem;
+    height: auto;
+    
+}
+    footer{
+        grid-area: footer;
+        background-color: crimson;
+        padding: 0%;
+        text-align: center;
+    }
+    label{
+        background-color: rgb(172, 94, 38);
+        font-style: normal;
+        font-size: 20px;
+        color: black;
+    }
+    input{
+        background-color: azure;
+    }
+    textarea{
+        background-color: azure;
+        color: black;
+    }
